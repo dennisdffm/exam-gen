@@ -1,0 +1,87 @@
+ #-----ESTANDAR DE NOMENCLATURA-----------#
+ #
+ # sel-m = Selección múltiple
+ # v-f = Verdadero o falso
+ # cita
+
+ # Acá va la info del encabezado
+info:
+    asignatura: "Ciencias Naturales y Salud"
+    prof: "Lic. Dalila Arce"
+    fecha: " __/__/202__"
+    curso: "1er año"
+    puntos: "15"
+    tipo_examen: "Sumativa"
+    colegio: "NJ"
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 5205e9c654f038daae7a836ee6fbb1b0c4b0754a
+>>>>>>> d23e3344ce2e3b3566a8463744a499c36952ac45
+ # Acá va el contenido o los temas del examen siguiendo la nomenclatura de arriba
+Tema 1:
+    - 
+        tipo: sel-m
+        contenido:
+            Enunciado: "1) Es una enfermedad que se produce porque ciertas células del cuerpo dejan de responder a los factores que en condiciones \
+            normales controlan el crecimiento, de modo que dichas células se multiplican de manera independiente, desplazando invadiendo y \
+            destruyendo otros tejidos. Se trata de:"
+            Opciones:
+                - Cáncer
+                - Herpes genitales
+                - Lupus
+    - 
+        tipo: sel-m
+        contenido:
+            Enunciado: "2) Cuando el cuerpo se encuentra debilitado a causa del VIH, acarrea muchas enfermedades…"
+            Opciones:
+                - Infecciosas
+                - Oportunistas
+                - Autoinmunes
+    - 
+        tipo: sel-m
+        contenido:
+            Enunciado: '3) Es el proceso de propagación de un foco canceroso a un órgano distinto de aquel en que se inició:'
+            Opciones:
+            - Restricción
+            - Incubación
+            - Metástasis
+    - 
+        tipo: sel-m
+        contenido:
+            Enunciado: '4) Es una afección en la cual careces de suficientes glóbulos rojos sanos, para transportar un nivel adecuado de oxígeno a los tejidos del cuerpo. '
+            Opciones:
+            - Anemia
+            - Lupus
+            - Leucemia
+    - 
+        tipo: sel-m
+        contenido:
+            Enunciado: '5) La sífilis, es una enfermedad sistémica causada por:'
+            Opciones:
+            - Treponema Mycobacterium
+            - Treponema Pallidum
+            - Mycobacterium Pallidum
+
+Tema 2:
+    - 
+        tipo: v-f
+        contenido:
+            Enunciado: "Marque (V) si es verdadero y (F) si es falso, justifica las falsas. No se aceptan borrones."
+            Items:
+                - Enunciado 1.
+                - Enunciado 2.
+                - Enunciado 3.
+                - Enunciado 4.
+                - Enunciado 5.
+
+Tema 3:
+    - 
+        tipo: cita
+        contenido:
+            Enunciado: 'Cita cinco colores.'
+            Cantidad: 5
