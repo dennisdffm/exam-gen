@@ -13,15 +13,6 @@ info:
     puntos: "15"
     tipo_examen: "Sumativa"
     colegio: "NJ"
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 5205e9c654f038daae7a836ee6fbb1b0c4b0754a
->>>>>>> d23e3344ce2e3b3566a8463744a499c36952ac45
  # Acá va el contenido o los temas del examen siguiendo la nomenclatura de arriba
 Tema 1:
     - 
