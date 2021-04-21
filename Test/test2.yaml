@@ -1,0 +1,62 @@
+ # Debería fallar porque no se definió un encabezado
+tema 1:
+    descripcion: 'Subrayo la respuesta correcta.'
+    subtemas:
+        - 
+            tipo: sel-m
+            enunciado: "1) Es una enfermedad que se produce porque ciertas células del cuerpo dejan de responder a los factores que en condiciones \
+            normales controlan el crecimiento, de modo que dichas células se multiplican de manera independiente, desplazando invadiendo y \
+            destruyendo otros tejidos. Se trata de:"
+            opciones:
+                - Cáncer
+                - Herpes genitales
+                - Lupus
+        - 
+            tipo: sel-m
+            enunciado: "2) Cuando el cuerpo se encuentra debilitado a causa del VIH, acarrea muchas enfermedades…"
+            opciones:
+                - Infecciosas
+                - Oportunistas
+                - Autoinmunes
+        - 
+            tipo: sel-m
+            enunciado: '3) Es el proceso de propagación de un foco canceroso a un órgano distinto de aquel en que se inició:'
+            opciones:
+            - Restricción
+            - Incubación
+            - Metástasis
+        - 
+            tipo: sel-m
+            enunciado: '4) Es una afección en la cual careces de suficientes glóbulos rojos sanos, para transportar un nivel adecuado de oxígeno a los tejidos del cuerpo. '
+            opciones:
+            - Anemia
+            - Lupus
+            - Leucemia
+        - 
+            tipo: sel-m
+            enunciado: '5) La sífilis, es una enfermedad sistémica causada por:'
+            opciones:
+            - Treponema Mycobacterium
+            - Treponema Pallidum
+            - Mycobacterium Pallidum
+
+tema 2:
+    descripcion: 'Marca V si es verdadero y F si es falso'
+    subtemas:
+        - 
+            tipo: v-f
+            enunciado: " "
+            items:
+                - enunciado 1.
+                - enunciado 2.
+                - enunciado 3.
+                - enunciado 4.
+                - enunciado 5.
+
+tema 3:
+    descripcion: 'Cita'
+    subtemas:
+        - 
+            tipo: cita
+            enunciado: 'Cinco colores.'
+            cantidad: 5

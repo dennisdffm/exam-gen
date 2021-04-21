@@ -1,0 +1,9 @@
+# Debería fallar porque no se definió ningún tema
+encabezado:
+    asignatura: "Ciencias Naturales y Salud"
+    prof: "Lic. Dalila Arce"
+    fecha: " __/__/202__"
+    curso: "1er año"
+    puntos: "15"
+    tipo_examen: "Sumativa"
+    colegio: "NJ"

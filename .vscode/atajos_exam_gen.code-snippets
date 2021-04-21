@@ -15,43 +15,76 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"encabezado":{
+		"scope": "yaml",
+		"prefix": "encabezado",
+		"body": [
+			"encabezado: ",
+			"\tasignatura: '${1:Nombre de la asignatura}'",
+			"\tprof: '${2:Nombre del prof.}'",
+			"\tfecha: '${3}'",
+			"\tcurso: '${4}'",
+			"\tpuntos: '${5}'",
+			"\ttipo_examen: '${6}'",
+			"\tcolegio: '${7}'",
+			"",
+			"${0:# Escribe los temas aquí, puedes escribir tem y luego presionar CTRL + ESPACIO}"
+		]
+	},
+	"temas":{
+		"scope": "yaml",
+		"prefix": "tema",
+		"body": [
+			"tema ${1:<Numero del tema>}:",
+			"\tdescripcion: '${2:El título del tema.}'",
+			"\tsubtemas:",
+			"\t\t\t${0:Escribe un tipo de subtema que soporte el programa. ej: sel-m, v-f, cita}"
+		]
+	},
 	"sel_mult": {
 		"scope": "yaml",
 		"prefix": "sel-m",
 		"body": [
-			"- ",
+			"-",
 			"\ttipo: sel-m",
-			"\tcontenido:",
-			"\t\tEnunciado: '$1'",
-			"\t\tOpciones:",
-			"\t\t\t- $2",
-			"\t\t\t- $3",
-			"\t\t\t- $4",
+			"\tenunciado: '$1'",
+			"\topciones:",
+			"\t\t- $2",
+			"\t\t- $3",
+			"\t\t- $4",
+			"$0"
 		]
 	},
 	"v_f": {
 		"scope": "yaml",
 		"prefix": "v-f",
 		"body": [
-			"- ",
+			"-",
 			"\ttipo: v-f",
 			"\tcontenido:",
-			"\t\tEnunciado: '$1'",
-			"\t\tItems:",
-			"\t\t\t- $2",
-			"\t\t\t- $3",
-			"\t\t\t- $4",
+			"\tenunciado: '$1'",
+			"\titems:",
+			"\t\t- '$2'",
+			"\t\t- '$3'",
+			"\t\t- '$4'",
+			"$0"
 		]
 	},
 	"cita": {
 		"scope": "yaml",
 		"prefix": "cita",
 		"body": [
-			"- ",
+			"-",
 			"\ttipo: cita",
 			"\tcontenido:",
-			"\t\tEnunciado: '$1'",
-			"\t\tCantidad: $2"
+			"\tenunciado: '$1'",
+			"\tcantidad: $2",
+			"$0"
 		]
+	},
+	"profeD":{
+		"scope": "yaml",
+		"prefix": "Lic",
+		"body": "Lic. Dalila Arce"
 	}
 }
